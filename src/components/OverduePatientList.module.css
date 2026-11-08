@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp12);
+}
+
+.saveButton {
+    align-self: flex-end;
+}

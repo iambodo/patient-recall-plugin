@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-11-06T22:38:38.358Z\n"
+"PO-Revision-Date: 2026-11-06T22:38:38.360Z\n"
+
+msgid "Standalone dev preview"
+msgstr "Standalone dev preview"
+
+msgid ""
+"This is the app entry point, used only to preview the plugin outside of "
+"Capture. In production, Capture loads the plugin entry point directly as a "
+"Bulk Data Entry Plugin."
+msgstr ""
+"This is the app entry point, used only to preview the plugin outside of "
+"Capture. In production, Capture loads the plugin entry point directly as a "
+"Bulk Data Entry Plugin."
+
+msgid "Not scheduled"
+msgstr "Not scheduled"
+
+msgid "No overdue patients"
+msgstr "No overdue patients"
+
+msgid "Run a check to see patients who are overdue for a visit."
+msgstr "Run a check to see patients who are overdue for a visit."
+
+msgid "Patient"
+msgstr "Patient"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Scheduled date"
+msgstr "Scheduled date"
+
+msgid "Result"
+msgstr "Result"
+
+msgid "Reason"
+msgstr "Reason"
+
+msgid "Result date"
+msgstr "Result date"
+
+msgid "Plugin configuration is invalid"
+msgstr "Plugin configuration is invalid"
+
+msgid ""
+"The capture/bulkDataEntry data store value's \"config\" field must be an "
+"array of configuration objects, not a single object. Check the value in the "
+"Data Store app."
+msgstr ""
+"The capture/bulkDataEntry data store value's \"config\" field must be an "
+"array of configuration objects, not a single object. Check the value in the "
+"Data Store app."
+
+msgid "Plugin not configured"
+msgstr "Plugin not configured"
+
+msgid "Check for overdue patients"
+msgstr "Check for overdue patients"
+
+msgid "Not checked yet this session"
+msgstr "Not checked yet this session"
+
+msgid "Could not check patients"
+msgstr "Could not check patients"
+
+msgid "Overdue check complete"
+msgstr "Overdue check complete"
+
+msgid "1,000+ overdue visits found"
+msgstr "1,000+ overdue visits found"
+
+msgid "{{flagged}} patients newly marked overdue, {{cleared}} patients cleared"
+msgstr "{{flagged}} patients newly marked overdue, {{cleared}} patients cleared"
+
+msgid "Some entries may be rejected"
+msgstr "Some entries may be rejected"
+
+msgid "Could not save entries"
+msgstr "Could not save entries"
+
+msgid "Entries saved"
+msgstr "Entries saved"
+
+msgid "Defer"
+msgstr "Defer"
+
+msgid "Close"
+msgstr "Close"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "Patient Recall"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr ""

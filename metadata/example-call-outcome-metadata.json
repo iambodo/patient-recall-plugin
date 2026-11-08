@@ -1,0 +1,166 @@
+{
+    "options": [
+        {
+            "id": "DuhIR9uQEZQ",
+            "code": "ANSWERED",
+            "name": "Called, answered",
+            "sortOrder": 1,
+            "optionSet": {
+                "id": "XpCojVGHE9H"
+            }
+        },
+        {
+            "id": "ZU4UjR6tBNa",
+            "code": "NO_ANSWER",
+            "name": "Called, no answer",
+            "sortOrder": 2,
+            "optionSet": {
+                "id": "XpCojVGHE9H"
+            }
+        },
+        {
+            "id": "O5Q2c0pMC8v",
+            "code": "INVALID_NUMBER",
+            "name": "Invalid or wrong number",
+            "sortOrder": 3,
+            "optionSet": {
+                "id": "XpCojVGHE9H"
+            }
+        },
+        {
+            "id": "S2TFKypoDDE",
+            "code": "AGREED_TO_VISIT",
+            "name": "Agreed to visit",
+            "sortOrder": 1,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "ZN8XyXqjWqI",
+            "code": "ALREADY_VISITED",
+            "name": "Already visited",
+            "sortOrder": 2,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "Vs0aJkc2NUJ",
+            "code": "TRANSFERRED",
+            "name": "Transferred to another facility",
+            "sortOrder": 3,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "gbk5qUybu9Q",
+            "code": "MOVED",
+            "name": "Moved away",
+            "sortOrder": 4,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "PkZchjnAAFe",
+            "code": "DIED",
+            "name": "Died",
+            "sortOrder": 5,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "mNG8hat9ePn",
+            "code": "REFUSED",
+            "name": "Refused to return",
+            "sortOrder": 6,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        },
+        {
+            "id": "wiY0XjB9MPT",
+            "code": "OTHER",
+            "name": "Other",
+            "sortOrder": 7,
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        }
+    ],
+    "optionSets": [
+        {
+            "id": "XpCojVGHE9H",
+            "name": "PR - Call outcome",
+            "valueType": "TEXT",
+            "options": [
+                {
+                    "id": "DuhIR9uQEZQ"
+                },
+                {
+                    "id": "ZU4UjR6tBNa"
+                },
+                {
+                    "id": "O5Q2c0pMC8v"
+                }
+            ]
+        },
+        {
+            "id": "dSDiBcUOIQv",
+            "name": "PR - Reason for removal from overdue list",
+            "valueType": "TEXT",
+            "options": [
+                {
+                    "id": "S2TFKypoDDE"
+                },
+                {
+                    "id": "ZN8XyXqjWqI"
+                },
+                {
+                    "id": "Vs0aJkc2NUJ"
+                },
+                {
+                    "id": "gbk5qUybu9Q"
+                },
+                {
+                    "id": "PkZchjnAAFe"
+                },
+                {
+                    "id": "mNG8hat9ePn"
+                },
+                {
+                    "id": "wiY0XjB9MPT"
+                }
+            ]
+        }
+    ],
+    "dataElements": [
+        {
+            "id": "FFulWmjhhdJ",
+            "name": "PR - Call outcome",
+            "shortName": "PR - Call outcome",
+            "formName": "Call outcome",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "aggregationType": "NONE",
+            "optionSet": {
+                "id": "XpCojVGHE9H"
+            }
+        },
+        {
+            "id": "N9rKiP2jGJU",
+            "name": "PR - Reason for removal from overdue list",
+            "shortName": "PR - Removal reason",
+            "formName": "Reason for removal",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "aggregationType": "NONE",
+            "optionSet": {
+                "id": "dSDiBcUOIQv"
+            }
+        }
+    ]
+}

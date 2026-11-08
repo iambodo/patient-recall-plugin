@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacers-dp12);
+    padding: var(--spacers-dp16);
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-block-size: 150px;
+}
+
+.scopeLine {
+    color: var(--colors-grey700);
+    margin: 0;
+}
+
+.lastRun {
+    color: var(--colors-grey600);
+    font-size: 13px;
+    margin: 0;
+}
+
+.footerButtons {
+    display: flex;
+    gap: var(--spacers-dp8);
+    justify-content: flex-end;
+    margin-top: var(--spacers-dp8);
+}

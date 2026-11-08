@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "config": [
+        {
+            "title": {
+                "en": "Check for overdue patients"
+            },
+            "configKey": "overdueCheck",
+            "programId": "M3bX9810ASg",
+            "pluginSource": "https://<your-instance>/api/apps/patient-recall-plugin/plugin.html",
+            "programStageId": "HBKOiKMuBIy",
+            "overdueAttributeId": "fmIVit1cEpg",
+            "overdueValue": "true",
+            "clearedValue": "false",
+            "calledValue": "false",
+            "givenNameAttributeId": "sB1IHYu2xQT",
+            "familyNameAttributeId": "ENRjVGxVL6l",
+            "phoneAttributeId": "fctSQp5nAYl",
+            "callEventStageId": "xSdYbS9FVe7",
+            "bulkEntryStageId": "xSdYbS9FVe7",
+            "resultDataElementId": "FFulWmjhhdJ",
+            "resultDateDataElementId": "xyczZvsuaWr",
+            "reasonDataElementId": "N9rKiP2jGJU",
+            "reasonShowWhenResultCode": "ANSWERED"
+        }
+    ]
+}
