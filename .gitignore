@@ -2,7 +2,6 @@
 node_modules
 .d2
 src/locales
-build
 
 # Local working notes and instance exports (not part of the public repo)
 .claude/

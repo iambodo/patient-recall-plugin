@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "name": "patient-recall-plugin",
+  "title": "Patient Recall",
+  "viteConfigExtensions": "./viteConfigExtensions.mts",
+  "version": "1.0.0",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html",
+    "plugin": "plugin.html"
+  }
+}

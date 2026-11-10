@@ -1,0 +1,22 @@
+{
+  "appType": "APP",
+  "short_name": "patient-recall-plugin",
+  "name": "Patient Recall",
+  "description": "",
+  "version": "1.0.0",
+  "launch_path": "index.html",
+  "plugin_launch_path": "plugin.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Fri Nov 06 2026 23:38:39 GMT+0100 (Central European Standard Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
